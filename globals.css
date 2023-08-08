@@ -1,0 +1,64 @@
+*{
+  background-color: #282c34;
+  color: aliceblue;
+  text-decoration: none;
+}
+.button{
+  border: none;
+  background-color: aliceblue;
+  color: #282c34;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 1;  
+}
+.homeLink{
+ margin: 10px;
+ margin-left: 200px;
+}
+.addTopic{
+  margin: 10px;
+ margin-right: 200px;
+}
+.blogs{
+  border: 0.055px solid aliceblue;
+  width: 60%;
+  display: flex;
+  margin:auto;
+  margin-bottom: 20px;
+  
+    }
+  .bt{
+    margin: 10px;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  .pen{margin: 10px;}
+  .td{
+    flex: 4;
+    flex-direction: end;
+    padding: 10px;
+  
+  }
+  .form-add{
+    margin:auto;
+    width: 40%;
+    margin-bottom: 20px;
+      }
+   input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid aliceblue;
+   }   
